@@ -8,10 +8,11 @@
 
 body {
 	font-family: "Lato", sans-serif;
+    background: #edf6f9;
 }
 
 header {
-	background-color: #bbb;
+	background-color: #cc5803;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -26,13 +27,17 @@ main {
 }
 
 h1 {
+    display: block;
 	font-size: 2rem;
+    margin-left: 20px;
+    
 }
 
 nav {
-	background-color: #36454f;
+	background-color: #183a37;
 	margin: 0 auto;
 	max-width: 800px;
+    font-weight: bold;
 }
 
 nav ul {
@@ -48,43 +53,79 @@ nav a {
 }
 
 nav a:hover {
-	border: 1px solid #fff;
+	border: 1px solid #ffc300;
 }
 
 .active {
 	color: yellow;
 }
 
-.card {
+h2 {
+    display: block;
+    text-align: center;
+    padding-top: 10px;
+    color: #001d3d;
+  }
+
+ .grid-container {
+    /*display: grid;
+    gap: 1.5rem;
+    grid-template-columns: 100px 100px 100px;*/
+
     display: grid;
-    grid-template-columns: repeat(1, 3fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 20px;
-    background-color: greenyellow;
+  }
+
+ main {
+    margin-bottom: 20px;
+ }
+
+  .card {
+    background-color: #ff7900;
     padding: 20px;
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    
   }
 
   .card h3 {
     margin-top: 0;
+    text-align: center;
+    background: #fff;
+    width: 100%;
   }
 
   .card ul {
     list-style-type: none;
-    padding: 0;
+    padding: 10px;
   }
 
   .card ul li {
     margin-bottom: 5px;
   }
-  
+
   .card ul li a {
     text-decoration: none;
-    color: #333;
+    color: blue;
   }
   
   .card ul li a:hover {
-    color: #555;
+    color: yellow;
   }
+
+footer {
+    background-color: #183a37;
+	margin: 0 auto;
+	max-width: 800px;
+    padding: 20px;
+}
+
+footer p {
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+}
 
   

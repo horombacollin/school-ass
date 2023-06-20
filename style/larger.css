@@ -6,3 +6,24 @@
 		flex: 1 1 100%;
 	}
 }
+
+@media (max-width: 600px) {
+    .grid-container {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  @media (max-width: 600px) {
+    h2 {
+      display: inline;
+      font-size: small;
+    }
+  }
+
+  @media (max-width: 600px) {
+    h1 {
+        display: inline;
+        font-size: medium;
+    }
+  }
+  
