@@ -17,7 +17,9 @@
     h2 {
       display: inline;
       font-size: small;
+      text-align: center;
     }
+    
   }
 
   @media (max-width: 600px) {
@@ -26,6 +28,30 @@
         font-size: medium;
     }
   }
+
+  @media (max-width: 600px) {
+    h2 {
+      display: inline;
+      font-size: small;
+      text-align: center;
+    }
+    
+  }
+
+  /*site plan */
+
+  @media (max-width: 600px) {
+    /* CSS styles specific to small screens */
+
+    /* Example styles */
+    body {
+        font-size: 14px;
+    }
+
+    .card {
+        padding: 10px;
+    }
+}
 
  
   
