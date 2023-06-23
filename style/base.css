@@ -136,7 +136,9 @@ footer p {
 }
 
 /* styling for site plan*/
-
+nav {
+  margin-top: 20px;
+}
 main p  {
   text-align: center;
 }
