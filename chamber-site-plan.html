@@ -13,7 +13,7 @@
     </header>
     <nav>
         <ul>
-            <li><a href="#">Home</a></li> 
+            <li><a href="index.html">Home</a></li> 
             <li><a href="#">Chamber</a></li> 
             <li><a href="chamber-site-plan.html">Site-Plan</a></li> 
             <li><a href="#">Form</a></li> 
@@ -22,7 +22,7 @@
 
     <main>
         <div class="grid-container">
-            <section>
+            <section class="card">
                 <h2>Site Name</h2>
                 <p>
                     The site name for this Chamber of Commerce is "<strong>Soweto Chamber of Commerce</strong>".
@@ -31,7 +31,7 @@
                 </p>
             </section>
 
-            <section>
+            <section class="card">
                 <h2>Site Purpose</h2>
                 <ul>
                     <li>To provide a comprehensive directory of local businesses in Soweto, allowing residents and visitors to easily find the products and services they need.</li>
@@ -39,7 +39,7 @@
                 </ul>
             </section>
 
-            <section>
+            <section class="card">
                 <h2>Scenarios</h2>
                 <ul>
                   <li>A local resident wants to find a trusted restaurant in Soweto for a special occasion.</li>
@@ -48,7 +48,7 @@
                 </ul>
               </section>
 
-              <section>
+              <section class="card">
                 <h2>Color Schema</h2>
                 <ul>
                   <li>Primary Color: #cc5803 (Used for headings, navigation, and call-to-action buttons)</li>
@@ -78,6 +78,13 @@
         </div>
     </main>
 
-    <footer></footer>
+    <footer>
+        <div id="footer-sect">
+            <p>&copy;<span id="currentYear"></span> | Collin S. Horomba | South Africa</p>
+            <p class="last-update">Last Modified: <span id="currentDateAndTime"></span></p>
+            <script src="js/script.js"></script>
+        </div>
+    </footer>
+    <script src="scripts/getDates.js"></script>
 </body>
 </html>

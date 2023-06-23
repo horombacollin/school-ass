@@ -135,6 +135,24 @@ footer p {
     font-weight: bold;
 }
 
+/* styling for site plan*/
+
+main p  {
+  text-align: center;
+}
+
+main {
+  margin-top: 20px;
+}
+
+h2 {
+  background-color: aliceblue;
+  text-align: center;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
 
 
   
