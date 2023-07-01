@@ -71,7 +71,7 @@ main {
 
 #hero {
   background-image: url('images/soweto.jpg');
-  border: 2px solid black;
+  border: 2px solid #009ac9;
   padding: 25px;
   background-repeat: no-repeat;
   background-size: cover;
@@ -90,8 +90,9 @@ main {
   left: 50%;
   transform: translate(-50%, -50%);
   translate:(-50%, -50%);
-  font-size: 58px;
+  font-size: 40px;
   font-weight: bold;
+  margin-top: 50px;
 }
 
 #hero .btn {
@@ -212,7 +213,7 @@ main {
     display: inline-block;
     padding: 8px;
     color: white;
-    background-color: #000;
+    background-color: #009ac9;
     text-align: center;
     cursor: pointer;
     width: 100%;
@@ -304,7 +305,13 @@ a {
   
   /* Contact section styles */
   #contact {
-    margin-bottom: 40px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    text-align: center;
+    border: 1px solid #333;
+    padding: 20px;
+    font-weight: bold;
+    font-size: large;
   }
   
   #contact h2 {
@@ -321,6 +328,8 @@ a {
     list-style: none;
     margin-left: 20px;
   }
+
+  
   
   #contact ul li {
     margin-bottom: 10px;
