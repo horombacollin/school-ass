@@ -317,11 +317,13 @@ a {
   #contact h2 {
     font-size: 24px;
     margin-bottom: 10px;
+    text-align: center;
   }
   
   #contact p {
     font-size: 16px;
     line-height: 1.4;
+    text-align: center;
   }
   
   #contact ul {
@@ -333,6 +335,12 @@ a {
   
   #contact ul li {
     margin-bottom: 10px;
+  }
+
+  .contact-card {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
   }
   
   /* Footer styles */
